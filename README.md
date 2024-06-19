@@ -1,6 +1,10 @@
 # Exploring-Stock-Price-Prediction-with-Deep-Learning
 This report explores the application of deep learning for stock price prediction. It investigates the effectiveness of GRU neural networks in analyzing historical data to forecast closing prices for multiple companies.
+
+
 #ABSTRACT
+
+
 ##Modeling Approach
 This document details the application of deep learning, using TensorFlow and Keras, to predict closing stock prices for six companies over the next 96 days. Here's a breakdown of our modeling approach:
 
@@ -14,7 +18,10 @@ Training: The model was trained on the preprocessed data, with hyperparameters f
 
 Evaluation: The model's performance was evaluated using metrics like mean absolute error (MAE), mean squared error (MSE), and visual inspection of predicted versus actual closing prices.
 
+
+
 ##Model Architecture
+
 This architecture consists of three GRU layers, each with 32 units. The first two layers return sequences. A dropout layer with a 20% dropout rate is incorporated to prevent overfitting. Finally, a single-unit Dense layer serves as the output layer. The model is compiled using mean squared error loss and the Adam optimizer.
 
 Data Preparation and Preprocessing - Univariate Strategy
